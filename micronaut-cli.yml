@@ -1,0 +1,6 @@
+applicationType: cli
+defaultPackage: com.hawwaru
+testFramework: spock
+sourceLanguage: java
+buildTool: maven
+features: [ annotation-api, app-name, jackson-databind, java, logback, lombok, maven, picocli, picocli-java-application, picocli-spock, readme, shade, spock, yaml ]
