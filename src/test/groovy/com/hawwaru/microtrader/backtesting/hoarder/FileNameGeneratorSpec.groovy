@@ -40,7 +40,5 @@ class FileNameGeneratorSpec extends Specification {
         of(2022, Month.JANUARY, 1)  | of(2022, Month.FEBRUARY, 28) | AGG_TRADES | List.of("BTCUSDT-aggTrades-2022-1.zip", "BTCUSDT-aggTrades-2022-2.zip")                                       | "captures full months between start of one and end of the next one"
         of(2022, Month.JANUARY, 1)  | of(2022, Month.FEBRUARY, 28) | KLINES     | List.of("BTCUSDT-1m-2022-1.zip", "BTCUSDT-1m-2022-2.zip")                                                     | "captures full months between start of one and end of the next one"
         of(2022, Month.JANUARY, 1)  | of(2022, Month.FEBRUARY, 28) | TRADES     | List.of("BTCUSDT-trades-2022-1.zip", "BTCUSDT-trades-2022-2.zip")                                             | "captures full months between start of one and end of the next one"
-
-
     }
 }
